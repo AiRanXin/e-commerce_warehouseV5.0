@@ -15,7 +15,7 @@
 
 - **集群规划**
 
-![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E9%9B%86%E7%BE%A4%E6%9C%8D%E5%8A%A1%E5%99%A81.png "github") 
+[![github]](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E9%9B%86%E7%BE%A4%E6%9C%8D%E5%8A%A1%E5%99%A81.png "github") 
 
 - **项目架构**
 
