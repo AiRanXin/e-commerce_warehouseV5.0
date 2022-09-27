@@ -74,7 +74,7 @@
 
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%B4%BE%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
 
-   - 衍生指标
+    - 衍生指标
 
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E8%A1%8D%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
 
