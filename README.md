@@ -15,7 +15,7 @@
 
 - **集群规划**
 
-![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E9%9B%86%E7%BE%A4%E6%9C%8D%E5%8A%A1%E5%99%A81.png "github") 
+[image]: [http://github.com/github.png](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84.png) "github" 
 
 - **项目架构**
 
@@ -46,8 +46,6 @@
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E4%B8%9A%E5%8A%A1%E9%87%87%E9%9B%86%E6%B5%81%E7%A8%8B.png "github") 
 
 ## 2.数仓建模与开发
-
-![github]( https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84.png" github") 
 
 ### 2.1 数仓建模设计
 - 1.数据调研
