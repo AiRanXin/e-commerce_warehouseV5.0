@@ -19,7 +19,7 @@
 
 - **项目架构**
 
-![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E9%A1%B9%E7%9B%AE%E6%A1%86%E6%9E%B6.jpg?raw=true "github") 
+![github]( https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84.png"github") 
 ## 1.数据采集
 ### 1.1 用户行为日志采集
 本项目收集和分析的用户行为信息主要有页面浏览记录、动作记录、曝光记录、启动记录和错误记录，格式为json，编写脚本来使用模拟器产生用户行为数据
@@ -71,11 +71,11 @@
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E4%B8%9A%E5%8A%A1%E6%80%BB%E7%BA%BF%E7%9F%A9%E9%98%B5%E5%9B%BE.png "github") 
 
 - 4.明细模型设计
-- 原子指标，基于某一业务过程的度量值，对指标的聚合逻辑进行定义，是业务定义中不可再拆解的指标
-- 派生指标
+	- 原子指标，基于某一业务过程的度量值，对指标的聚合逻辑进行定义，是业务定义中不可再拆解的指标
+	- 派生指标
 
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%B4%BE%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
-- 衍生指标
+	- 衍生指标
 
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E8%A1%8D%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
 
