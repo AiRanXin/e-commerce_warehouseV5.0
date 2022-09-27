@@ -70,11 +70,9 @@
 
 - 4.明细模型设计
 	- 原子指标，基于某一业务过程的度量值，对指标的聚合逻辑进行定义，是业务定义中不可再拆解的指标
-	- 派生指标
+	- 派生指标与衍生指标
 
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%B4%BE%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
-
-    - 衍生指标
 
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E8%A1%8D%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
 
