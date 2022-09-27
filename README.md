@@ -38,7 +38,7 @@
   - HDFS Sink
   - Flume拦截器的编写实现Interceptor 接口和Intercepter.Builder接口
 - 用户行为日志采集流程
-- ![github]( https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E9%87%87%E9%9B%86%E6%B5%81%E7%A8%8B.png "github") 
+ ![github]( https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E9%87%87%E9%9B%86%E6%B5%81%E7%A8%8B.png "github") 
 
 ### 1.2 业务数据采集
 电商数仓开发涉及34张表，以订单表、用户表、SKU商品表、活动表和优惠券表为中心，延伸出了优惠券领用表、支付流水表、活动订单表、订单详情表、订单状态表、商品评论表、编码字典表退单表、SPU商品表等。选用mysql作为元数据存储，后续需要把数据同步到hive上数仓建模，同步策略有全量同步和增量同步，根据表格数据特点和业务需求合理选择。数据同步工具，全量选择datax，增量选Maxwell，选择理由后续再加
@@ -46,7 +46,9 @@
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E4%B8%9A%E5%8A%A1%E9%87%87%E9%9B%86%E6%B5%81%E7%A8%8B.png "github") 
 
 ## 2.数仓建模与开发
+
 ![github]( https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84.png" github") 
+
 ### 2.1 数仓建模设计
 - 1.数据调研
    - 业务调研，对现有业务划分业务模块，弄清每个业务的业务流程
@@ -71,15 +73,17 @@
 - 4.明细模型设计
 - 原子指标，基于某一业务过程的度量值，对指标的聚合逻辑进行定义，是业务定义中不可再拆解的指标
 - 派生指标
+
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E6%B4%BE%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
 - 衍生指标
+
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E8%A1%8D%E7%94%9F%E6%8C%87%E6%A0%87.png "github") 
 
 - 5.汇总模型设计
 汇总表与派生指标的对应关系是，一张汇总表通常包含业务过程相同、统计周期相同、统计粒度相同的多个派生指标
 
 ### 2.2 数仓开发
-- 整个数仓设计过程创建90多张表
+- 数仓体系分为5层，设计过程创建90多张表，采用hive on spark
 	- ods层，1张日志表，29张业务表
 	- dim层，6张维度表
 	- dwd层，19张事实表
@@ -91,8 +95,7 @@
 
 ### 3.1 DolphinScheduler任务调度
  DolphinScheduler对项目中的数据采集和数仓开发工作流进行监控，设置异常报警
- ![github]( https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E5%B0%8F%E6%B5%B7%E8%B1%9A%E8%B0%83%E5%BA%A6.png"github") 
-
+![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E5%B0%8F%E6%B5%B7%E8%B1%9A%E8%B0%83%E5%BA%A6.png "github") 
 ### 3.2 superset报表可视化
 调用ads层的数据进行可以化，superset是web UI，可能是apache的开源项目，功能交互方面感觉没有Tableau体验感好
 
