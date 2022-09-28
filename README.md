@@ -41,7 +41,7 @@
  ![github]( https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E9%87%87%E9%9B%86%E6%B5%81%E7%A8%8B.png "github") 
 
 ### 1.2 业务数据采集
-电商数仓开发涉及34张表，以订单表、用户表、SKU商品表、活动表和优惠券表为中心，延伸出了优惠券领用表、支付流水表、活动订单表、订单详情表、订单状态表、商品评论表、编码字典表退单表、SPU商品表等。选用mysql作为元数据存储，后续需要把数据同步到hive上数仓建模，同步策略有全量同步和增量同步，根据表格数据特点和业务需求合理选择。数据同步工具，全量选择datax，增量选Maxwell，选择理由后续再加
+电商数仓开发涉及34张表，以订单表、用户表、SKU商品表、活动表和优惠券表为中心，延伸出了优惠券领用表、支付流水表、活动订单表、订单详情表、订单状态表、商品评论表、编码字典表退单表、SPU商品表等。选用mysql作为元数据存储，后续需要把数据同步到hive上数仓建模，同步策略有全量同步和增量同步，根据表格数据特点和业务需求合理选择。数据同步工具，全量选择datax，增量选Maxwell，选择理由*****
 - 业务数据采集流程
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E4%B8%9A%E5%8A%A1%E9%87%87%E9%9B%86%E6%B5%81%E7%A8%8B.png "github") 
 
