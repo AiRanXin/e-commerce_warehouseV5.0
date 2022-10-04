@@ -14,7 +14,7 @@
 
 
 - **集群规划**
-  - CentOs上部署三台虚拟机，每台分配至少8G、4G、4G以上
+  - CentOs上部署三台虚拟机，每台分配至少8G、4G、4G以上内存,以下是各虚拟机集群组件的部署详情
 
 ![github](https://github.com/AiRanXin/e-commerce_warehouseV5.0/blob/main/demo_picture/%E9%9B%86%E7%BE%A4%E6%9C%8D%E5%8A%A1%E5%99%A81.png "github")  
 
